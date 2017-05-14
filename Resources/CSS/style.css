@@ -1,6 +1,122 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica; sans-serif;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 #logo {
   background-color: black;
 }
-#logo h1 {
+#logo .container {
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+#logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+#logo span {
   color: white;
+  font-size: 1rem;
+}
+#banner {
+  background-image: url(../Images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  padding-top: 9rem;
+}
+.announcement {
+  background-color: black;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  font-weight: bold;
+  width: 20rem;
+}
+.announcement h4 {
+  padding-bottom: 0.25rem;
+  font-size: 1rem;
+}
+.announcement h1 {
+  font-size: 2rem;
+}
+#nav {
+  background-color: firebrick;
+}
+#nav nav {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}
+#nav a {
+  color: white;
+  text-decoration: none;
+}
+#store {
+  padding-top: 3rem;
+
+}
+#store .container {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 4px solid black;
+  color: black;
+  width: 30%;
+}
+.item img {
+  margin: auto;
+  align-items: c
+  max-height: 9rem;
+  max-width: 9rem;
+  padding: 2rem 0;
+}
+.item p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+#info .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+.location {
+  width: 35%;
+}
+.location p {
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+.hours {
+  width: 35%;
+}
+.hours p {
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 5rem 0;
 }
