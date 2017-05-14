@@ -122,6 +122,7 @@ footer {
   color: white;
   padding: 5rem 0;
 }
+
 @media only screen and (max-width: 1024px) {
   #nav nav {
     display: none;
@@ -139,4 +140,17 @@ footer {
   .item {
     width: 47%;
   }
+}
+
+@media only screen and (max-width: 470px) {
+  html {
+    background-color: green;
+  }
+  #store .item.watch {
+    display: none;
+  }
+  .item {
+    width: 90%;
+  }
+
 }
